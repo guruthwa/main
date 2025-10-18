@@ -49,7 +49,8 @@ const Home = () => {
             <p className="font-serif text-2xl md:text-3xl tracking-widest border-t border-b border-black py-2 inline-block px-8">
               STUDY CAFÉ - READING ROOM
             </p>
-            <p className="font-serif text-sm mt-3 tracking-wide">Where Legends Are Made • Est. Legacy Continues</p>
+            <p className="font-serif text-lg md:text-xl mt-3 tracking-wide italic font-semibold">Where Focus Meets Gravity</p>
+            <p className="font-serif text-sm mt-2 tracking-wide">Where Legends Are Made • Est. Legacy Continues</p>
           </div>
           <div className="flex justify-between items-center mt-4 text-sm font-serif">
             <div className="flex gap-6">
