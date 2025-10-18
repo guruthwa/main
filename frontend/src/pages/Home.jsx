@@ -251,15 +251,6 @@ const Home = () => {
                 </p>
               </div>
             </div>
-
-            <div className="grid md:grid-cols-3 gap-6">
-              {mockData.achievements.map((achievement, index) => (
-                <div key={index} className="border-2 border-black p-6 text-center bg-amber-50">
-                  <div className="text-5xl font-bold font-serif mb-2">{achievement.number}</div>
-                  <div className="font-serif text-sm uppercase tracking-wide">{achievement.label}</div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
