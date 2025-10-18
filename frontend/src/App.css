@@ -1,0 +1,148 @@
+.App {
+    min-height: 100vh;
+}
+
+/* Newspaper Theme Styles */
+.newspaper-theme {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: #fafafa;
+}
+
+/* Sepia Filter for Images */
+.sepia-filter {
+    filter: sepia(25%) contrast(105%) brightness(95%);
+    transition: filter 0.4s ease;
+}
+
+.sepia-filter:hover {
+    filter: sepia(0%) contrast(100%) brightness(100%);
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Serif Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+.font-serif {
+    font-family: 'Playfair Display', 'Georgia', serif;
+}
+
+/* Button Hover Effects */
+button {
+    transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Card Hover Effects */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Link Underline Animation */
+a {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+/* Newspaper Column Dividers */
+.column-divider {
+    border-right: 2px solid #000;
+}
+
+/* Print-Style Text */
+.newspaper-text {
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.7;
+}
+
+/* Masthead Styling */
+.masthead {
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+
+/* Accordion Smooth Animation */
+[data-state="open"] {
+    animation: slideDown 0.3s ease-out;
+}
+
+[data-state="closed"] {
+    animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        height: 0;
+        opacity: 0;
+    }
+    to {
+        height: var(--radix-accordion-content-height);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        height: var(--radix-accordion-content-height);
+        opacity: 1;
+    }
+    to {
+        height: 0;
+        opacity: 0;
+    }
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    .newspaper-theme h1 {
+        font-size: 2.5rem;
+    }
+    
+    .newspaper-theme h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Focus Visible Styles */
+*:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+}
+
+/* Selection Color */
+::selection {
+    background-color: #000;
+    color: #fff;
+}
