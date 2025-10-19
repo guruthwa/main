@@ -99,7 +99,7 @@ export const mockData = {
     },
     {
       question: "What's included in the membership fee?",
-      answer: "Your membership includes access to study cubicles, high-speed WiFi, unlimited tea/coffee, daily newspapers, library access, CCTV surveillance, and biometric security. Locker services are available at no extra cost."
+      answer: "Your membership includes access to study cubicles, high-speed WiFi, tea/coffee service, daily newspapers, library access, CCTV surveillance, and biometric security. Locker services are available at no extra cost."
     },
     {
       question: "Can I switch between Standard and Premium seating?",
