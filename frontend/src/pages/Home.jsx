@@ -201,7 +201,12 @@ const Home = () => {
                   {plan.featured && (
                     <Badge className="bg-white text-black font-serif mb-2">RECOMMENDED</Badge>
                   )}
-                  <CardTitle className="font-serif text-3xl mb-2">{plan.name}</CardTitle>
+                  <CardTitle className="font-serif text-3xl mb-1">{plan.name}</CardTitle>
+                  {plan.subtitle && (
+                    <p className={`font-serif text-sm italic mb-3 ${plan.featured ? 'text-gray-300' : 'text-gray-600'}`}>
+                      {plan.subtitle}
+                    </p>
+                  )}
                   <div className="font-serif text-5xl font-bold my-4">
                     ₹{plan.price}
                     <span className="text-lg font-normal">/month</span>
@@ -213,24 +218,34 @@ const Home = () => {
                 <CardContent className="pt-6">
                   <ul className="space-y-3">
                     {plan.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-start font-serif">
+                      <li key={idx} className="flex items-start font-serif text-sm">
                         <span className="mr-2">▪</span>
                         <span>{feature}</span>
                       </li>
                     ))}
                   </ul>
-                  <Button 
-                    onClick={handleCallNow}
-                    className={`w-full mt-6 font-serif tracking-wide transition-all ${
-                      plan.featured 
-                        ? 'bg-white text-black hover:bg-gray-200' 
-                        : 'bg-black text-white hover:bg-gray-800'
-                    }`}
-                    size="lg"
-                  >
-                    <Phone className="mr-2 h-4 w-4" />
-                    Call to Subscribe
-                  </Button>
+                  <div className="flex flex-col gap-2 mt-6">
+                    <Button 
+                      onClick={handleCallNow}
+                      className={`w-full font-serif tracking-wide transition-all ${
+                        plan.featured 
+                          ? 'bg-white text-black hover:bg-gray-200' 
+                          : 'bg-black text-white hover:bg-gray-800'
+                      }`}
+                      size="lg"
+                    >
+                      <Phone className="mr-2 h-4 w-4" />
+                      Call to Subscribe
+                    </Button>
+                    <Button 
+                      onClick={handleWhatsApp}
+                      className="w-full bg-green-600 text-white hover:bg-green-700 font-serif tracking-wide transition-all"
+                      size="lg"
+                    >
+                      <MessageCircle className="mr-2 h-4 w-4" />
+                      WhatsApp
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             ))}
