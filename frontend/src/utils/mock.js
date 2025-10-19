@@ -1,4 +1,4 @@
-import { Wifi, Coffee, Shield, Newspaper, Lock, BookOpen, Users } from 'lucide-react';
+import { Wifi, Coffee, Shield, Newspaper, Lock, BookOpen, Users, Droplet, MessageCircle, UtensilsCrossed, Bath, ParkingCircle } from 'lucide-react';
 import React from 'react';
 
 export const mockData = {
@@ -14,6 +14,11 @@ export const mockData = {
       description: "Tea and coffee service available with and without sugar, keeping you refreshed and energized throughout your study sessions."
     },
     {
+      icon: <Droplet className="h-12 w-12" />,
+      title: "Purified Drinking Water",
+      description: "Access to filtered drinking water through our water purifier system. Bottled water in cans also available for your convenience."
+    },
+    {
       icon: <Shield className="h-12 w-12" />,
       title: "24/7 Security",
       description: "Advanced surveillance system with CCTV cameras monitoring all areas, plus biometric access control for your complete peace of mind."
@@ -24,9 +29,29 @@ export const mockData = {
       description: "Access to leading newspapers and periodicals to keep you updated with current affairs—essential for competitive exam preparation."
     },
     {
+      icon: <MessageCircle className="h-12 w-12" />,
+      title: "Discussion Area",
+      description: "Dedicated discussion spaces for group study sessions, collaborative learning, and academic discussions with fellow students."
+    },
+    {
+      icon: <UtensilsCrossed className="h-12 w-12" />,
+      title: "Pantry & Dining Area",
+      description: "Well-equipped pantry area for dining and snacks. Bring your meals or enjoy light refreshments in a comfortable setting."
+    },
+    {
+      icon: <Bath className="h-12 w-12" />,
+      title: "Modern Restrooms",
+      description: "Separate, well-maintained bathrooms for ladies and gents. Both European and Indian toilet facilities available for your comfort."
+    },
+    {
       icon: <Lock className="h-12 w-12" />,
       title: "Secure Lockers",
       description: "Personal locker facilities to safely store your books, laptops, and belongings. Study with peace of mind knowing your items are secure."
+    },
+    {
+      icon: <ParkingCircle className="h-12 w-12" />,
+      title: "Two Wheeler Parking",
+      description: "Convenient and secure parking facility for two-wheelers. Your vehicle stays safe while you focus on your studies."
     },
     {
       icon: <BookOpen className="h-12 w-12" />,
