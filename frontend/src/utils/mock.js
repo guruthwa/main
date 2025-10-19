@@ -19,6 +19,11 @@ export const mockData = {
       description: "Access to filtered drinking water through our water purifier system. Bottled water in cans also available for your convenience."
     },
     {
+      icon: <Wind className="h-12 w-12" />,
+      title: "Air Conditioning",
+      description: "Comfortable climate-controlled environment throughout the facility. Study in perfect temperature conditions regardless of weather outside."
+    },
+    {
       icon: <Shield className="h-12 w-12" />,
       title: "24/7 Security",
       description: "Advanced surveillance system with CCTV cameras monitoring all areas, plus biometric access control for your complete peace of mind."
