@@ -330,7 +330,7 @@ const Home = () => {
           <div className="border-2 border-black p-6 text-center">
             <p className="font-serif text-2xl font-bold mb-2">GURUTHWA STUDY CAFÉ</p>
             <p className="font-serif text-sm text-gray-600 mb-3">
-              Statue, Uppalam Road, Trivandrum | Ph: 9778467700
+              URR14, Uppalam Road, Two Buildings After BSNL Bhavan, Trivandrum | Ph: 9778467700
             </p>
             <div className="border-t border-black pt-3 mt-3">
               <p className="font-serif text-xs text-gray-500">
