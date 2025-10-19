@@ -81,7 +81,7 @@ const Home = () => {
               </h2>
               <div className="border-l-4 border-black pl-4 mb-6">
                 <p className="font-serif text-lg leading-relaxed text-gray-800">
-                  In the heart of Trivandrum's Statue area, Gurutwa Study Café stands as a beacon of academic excellence. 
+                  In the heart of Trivandrum's Statue area, Guruthwa Study Café stands as a beacon of academic excellence. 
                   A place where silence speaks volumes, where focus finds its home, and where the brightest minds 
                   have carved their path to success.
                 </p>
@@ -117,7 +117,7 @@ const Home = () => {
               <div className="border-4 border-black overflow-hidden">
                 <img 
                   src="https://customer-assets.emergentagent.com/job_8b4fbf4e-8f0c-4dd4-8728-6ed76cfa17c9/artifacts/7uwv2rqn_WhatsApp%20Image%202025-10-17%20at%2019.27.46.jpeg"
-                  alt="Student studying at Gurutwa"
+                  alt="Student studying at Guruthwa"
                   className="w-full h-80 object-cover sepia-filter"
                 />
                 <div className="bg-black text-white p-3 font-serif text-sm">
@@ -128,7 +128,7 @@ const Home = () => {
               <div className="border-4 border-black overflow-hidden">
                 <img 
                   src="https://customer-assets.emergentagent.com/job_8b4fbf4e-8f0c-4dd4-8728-6ed76cfa17c9/artifacts/i10ywfly_WhatsApp%20Image%202025-10-19%20at%2001.04.36.jpeg"
-                  alt="Coffee facilities at Gurutwa"
+                  alt="Coffee facilities at Guruthwa"
                   className="w-full h-64 object-cover sepia-filter"
                 />
                 <div className="bg-black text-white p-3 font-serif text-sm">
@@ -246,7 +246,7 @@ const Home = () => {
                 </p>
                 <p className="font-serif text-lg leading-relaxed">
                   The atmosphere here is charged with purpose. Every corner resonates with the determination of 
-                  those who came before you. When you study at Gurutwa, you don't just join a reading room—you 
+                  those who came before you. When you study at Guruthwa, you don't just join a reading room—you 
                   become part of a lineage of excellence.
                 </p>
               </div>
@@ -290,7 +290,7 @@ const Home = () => {
               RESERVE YOUR SEAT TODAY
             </h2>
             <p className="font-serif text-xl mb-8 leading-relaxed">
-              Join the legacy. Transform your future. Begin your journey at Gurutwa Study Café.
+              Join the legacy. Transform your future. Begin your journey at Guruthwa Study Café.
             </p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -334,7 +334,7 @@ const Home = () => {
             </p>
             <div className="border-t border-black pt-3 mt-3">
               <p className="font-serif text-xs text-gray-500">
-                © {new Date().getFullYear()} Gurutwa Study Café. Where Excellence Meets Legacy.
+                © {new Date().getFullYear()} Guruthwa Study Café. Where Excellence Meets Legacy.
               </p>
             </div>
           </div>
