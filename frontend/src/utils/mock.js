@@ -67,7 +67,8 @@ export const mockData = {
 
   pricingPlans: [
     {
-      name: "Standard Seating",
+      name: "Pratham (प्रथम)",
+      subtitle: "The Foundation",
       price: "1,699",
       description: "Perfect for focused individual study",
       featured: false,
@@ -87,7 +88,8 @@ export const mockData = {
       ]
     },
     {
-      name: "Premium Seating",
+      name: "Madhyam (मध्यम)",
+      subtitle: "The Progress",
       price: "1,899",
       description: "Enhanced space & priority facilities",
       featured: true,
@@ -111,13 +113,14 @@ export const mockData = {
       ]
     },
     {
-      name: "Elite Private Cabin",
+      name: "Uttam (उत्तम)",
+      subtitle: "The Excellence",
       price: "2,199",
-      description: "Ultimate privacy with 24×7 access",
+      description: "24×7 access with premium amenities",
       featured: false,
       features: [
-        "Private cabin with door",
         "24×7 access (anytime entry)",
+        "Most spacious seating",
         "Personal desk lamp",
         "High-speed WiFi",
         "Air conditioning",
@@ -128,8 +131,8 @@ export const mockData = {
         "Biometric access",
         "Library access",
         "Dedicated locker",
-        "Premium seating & desk",
-        "Maximum privacy",
+        "Premium desk & ergonomic chair",
+        "Maximum comfort & privacy",
         "Pantry access",
         "Discussion area access",
         "Two wheeler parking"
