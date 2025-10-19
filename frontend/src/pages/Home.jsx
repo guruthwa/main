@@ -99,7 +99,7 @@ const Home = () => {
                 </div>
                 <div className="text-center">
                   <Coffee className="h-8 w-8 mx-auto mb-2" />
-                  <p className="font-serif text-sm font-bold">Free Beverages</p>
+                  <p className="font-serif text-sm font-bold">Beverages</p>
                   <p className="text-xs text-gray-600">Tea & Coffee</p>
                 </div>
               </div>
