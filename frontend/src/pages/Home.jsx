@@ -342,14 +342,24 @@ const Home = () => {
               </div>
             </div>
 
-            <Button 
-              onClick={handleCallNow}
-              size="lg"
-              className="bg-white text-black hover:bg-gray-200 font-serif tracking-wide text-xl px-12 py-6 transition-all"
-            >
-              <Phone className="mr-3 h-6 w-6" />
-              CALL NOW TO BOOK
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-2xl mx-auto">
+              <Button 
+                onClick={handleCallNow}
+                size="lg"
+                className="bg-white text-black hover:bg-gray-200 font-serif tracking-wide text-lg px-8 py-6 transition-all flex-1"
+              >
+                <Phone className="mr-3 h-6 w-6" />
+                CALL NOW
+              </Button>
+              <Button 
+                onClick={handleWhatsApp}
+                size="lg"
+                className="bg-green-600 text-white hover:bg-green-700 font-serif tracking-wide text-lg px-8 py-6 transition-all flex-1"
+              >
+                <MessageCircle className="mr-3 h-6 w-6" />
+                WHATSAPP
+              </Button>
+            </div>
           </div>
         </div>
       </section>
