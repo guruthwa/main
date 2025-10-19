@@ -108,14 +108,24 @@ const Home = () => {
                   <p className="text-xs text-gray-600">Tea & Coffee</p>
                 </div>
               </div>
-              <Button 
-                onClick={handleCallNow}
-                size="lg"
-                className="bg-black text-white hover:bg-gray-800 font-serif tracking-wide w-full md:w-auto transition-all"
-              >
-                <Phone className="mr-2 h-5 w-5" />
-                Reserve Your Seat - Call Now
-              </Button>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <Button 
+                  onClick={handleCallNow}
+                  size="lg"
+                  className="bg-black text-white hover:bg-gray-800 font-serif tracking-wide flex-1 transition-all"
+                >
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call Now
+                </Button>
+                <Button 
+                  onClick={handleWhatsApp}
+                  size="lg"
+                  className="bg-green-600 text-white hover:bg-green-700 font-serif tracking-wide flex-1 transition-all"
+                >
+                  <MessageCircle className="mr-2 h-5 w-5" />
+                  WhatsApp
+                </Button>
+              </div>
             </div>
             
             <div className="space-y-4">
