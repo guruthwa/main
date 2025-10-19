@@ -1,4 +1,4 @@
-import { Wifi, Coffee, Shield, Newspaper, Lock, BookOpen, Users, Droplet, MessageCircle, UtensilsCrossed, Bath, ParkingCircle } from 'lucide-react';
+import { Wifi, Coffee, Shield, Newspaper, Lock, BookOpen, Users, Droplet, MessageCircle, UtensilsCrossed, Bath, ParkingCircle, Wind } from 'lucide-react';
 import React from 'react';
 
 export const mockData = {
