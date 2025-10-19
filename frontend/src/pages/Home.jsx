@@ -81,7 +81,7 @@ const Home = () => {
               </h2>
               <div className="border-l-4 border-black pl-4 mb-6">
                 <p className="font-serif text-lg leading-relaxed text-gray-800">
-                  In the heart of Trivandrum's Statue area, Guruthwa Study Café stands as a beacon of academic excellence. 
+                  Located at URR14, Uppalam Road (two buildings after BSNL Bhavan), Guruthwa Study Café stands as a beacon of academic excellence. 
                   A place where silence speaks volumes, where focus finds its home, and where the brightest minds 
                   have carved their path to success.
                 </p>
