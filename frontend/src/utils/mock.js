@@ -75,11 +75,15 @@ export const mockData = {
         "Comfortable cubicle seating",
         "7 AM - 12 AM access",
         "High-speed WiFi",
+        "Air conditioning",
         "Tea & coffee available",
+        "Purified drinking water",
         "Daily newspapers",
         "CCTV surveillance",
         "Biometric access",
-        "Library access"
+        "Library access",
+        "Two wheeler parking",
+        "Separate restrooms"
       ]
     },
     {
@@ -91,14 +95,44 @@ export const mockData = {
         "Spacious premium cubicles",
         "7 AM - 12 AM access",
         "High-speed WiFi",
+        "Air conditioning",
         "Tea & coffee available",
+        "Purified drinking water",
         "Daily newspapers",
         "CCTV surveillance",
         "Biometric access",
         "Library access",
         "Priority locker access",
         "Extended desk space",
-        "Better lighting & ventilation"
+        "Better lighting & ventilation",
+        "Pantry access",
+        "Discussion area access",
+        "Two wheeler parking"
+      ]
+    },
+    {
+      name: "Elite Private Cabin",
+      price: "2,199",
+      description: "Ultimate privacy with 24×7 access",
+      featured: false,
+      features: [
+        "Private cabin with door",
+        "24×7 access (anytime entry)",
+        "Personal desk lamp",
+        "High-speed WiFi",
+        "Air conditioning",
+        "Tea & coffee available",
+        "Purified drinking water",
+        "Daily newspapers",
+        "CCTV surveillance",
+        "Biometric access",
+        "Library access",
+        "Dedicated locker",
+        "Premium seating & desk",
+        "Maximum privacy",
+        "Pantry access",
+        "Discussion area access",
+        "Two wheeler parking"
       ]
     }
   ],
