@@ -302,7 +302,7 @@ const Home = () => {
               <div className="border-2 border-white p-6">
                 <MapPin className="h-10 w-10 mx-auto mb-3" />
                 <p className="font-serif text-sm mb-2">VISIT US</p>
-                <p className="font-serif">Statue, Uppalam Road<br />Trivandrum</p>
+                <p className="font-serif">URR14, Uppalam Road<br />Two Buildings After BSNL Bhavan<br />Trivandrum</p>
               </div>
               <div className="border-2 border-white p-6">
                 <Clock className="h-10 w-10 mx-auto mb-3" />
