@@ -10,8 +10,8 @@ export const mockData = {
     },
     {
       icon: <Coffee className="h-12 w-12" />,
-      title: "Complimentary Beverages",
-      description: "Unlimited tea and coffee service available with and without sugar, keeping you refreshed and energized throughout your study sessions."
+      title: "Beverages Available",
+      description: "Tea and coffee service available with and without sugar, keeping you refreshed and energized throughout your study sessions."
     },
     {
       icon: <Shield className="h-12 w-12" />,
