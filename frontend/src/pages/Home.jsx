@@ -37,7 +37,7 @@ const Home = () => {
       <header className="border-b-4 border-black bg-white sticky top-0 z-50">
         <div className="border-b border-black py-1 bg-gray-50">
           <div className="container mx-auto px-4 flex justify-between items-center text-xs">
-            <span className="font-serif">Statue, Uppalam Road, Trivandrum</span>
+            <span className="font-serif">URR14, Uppalam Road, Two Buildings After BSNL Bhavan</span>
             <span className="font-serif">Excellence in Focus Since Legacy</span>
           </div>
         </div>
