@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, Clock, Wifi, Coffee, Shield, Newspaper, Lock, BookOpen, Users, Award, MapPin, Mail } from 'lucide-react';
+import { Phone, Clock, Wifi, Coffee, Shield, Newspaper, Lock, BookOpen, Users, Award, MapPin, Mail, MessageCircle } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/accordion';
@@ -29,6 +29,11 @@ const Home = () => {
 
   const handleCallNow = () => {
     window.location.href = 'tel:9778467700';
+  };
+
+  const handleWhatsApp = () => {
+    const message = encodeURIComponent("Hey, I'm interested in booking a slot at Guruthwa Study Café");
+    window.location.href = `https://wa.me/919778467700?text=${message}`;
   };
 
   return (
