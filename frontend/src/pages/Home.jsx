@@ -44,7 +44,7 @@ const Home = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="text-center border-b-2 border-black pb-4">
             <h1 className="font-serif text-5xl md:text-7xl font-bold tracking-wider mb-2">
-              GURUTWA
+              GURUTHWA
             </h1>
             <p className="font-serif text-2xl md:text-3xl tracking-widest border-t border-b border-black py-2 inline-block px-8">
               STUDY CAFÉ - READING ROOM
