@@ -179,7 +179,7 @@ const Home = () => {
             </div>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 max-w-7xl mx-auto">
             {mockData.pricingPlans.map((plan, index) => (
               <Card key={index} className={`border-4 border-black ${plan.featured ? 'bg-black text-white' : 'bg-white'} hover:scale-105 transition-transform`}>
                 <CardHeader className={`border-b-2 ${plan.featured ? 'border-white' : 'border-black'} text-center pb-6`}>
