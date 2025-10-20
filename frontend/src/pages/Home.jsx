@@ -159,14 +159,14 @@ const Home = () => {
       </section>
 
       {/* Features Section - Newspaper Column Layout */}
-      <section id="features" className="bg-white py-16 border-b-4 border-black">
+      <section id="features" className="bg-white py-8 md:py-16 border-b-4 border-black">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12 border-b-2 border-black pb-6">
-            <h2 className="font-serif text-5xl font-bold mb-3">PREMIUM FACILITIES</h2>
-            <p className="font-serif text-lg text-gray-700">Everything You Need for Uninterrupted Study</p>
+          <div className="text-center mb-6 md:mb-12 border-b-2 border-black pb-4 md:pb-6">
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold mb-2 md:mb-3">PREMIUM FACILITIES</h2>
+            <p className="font-serif text-sm sm:text-base md:text-lg text-gray-700">Everything You Need for Uninterrupted Study</p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {mockData.features.map((feature, index) => (
               <Card key={index} className="border-2 border-black hover:shadow-lg transition-shadow">
                 <CardHeader className="border-b border-black bg-gray-50">
