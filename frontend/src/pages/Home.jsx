@@ -187,19 +187,19 @@ const Home = () => {
       </section>
 
       {/* Pricing Section - Classified Ad Style */}
-      <section id="pricing" className="bg-amber-50 py-16 border-b-4 border-black">
+      <section id="pricing" className="bg-amber-50 py-8 md:py-16 border-b-4 border-black">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <div className="inline-block border-4 border-black bg-white p-6 mb-6">
-              <h2 className="font-serif text-5xl font-bold">MEMBERSHIP PLANS</h2>
-              <p className="font-serif text-sm mt-2 tracking-widest">INVEST IN YOUR FUTURE</p>
+          <div className="text-center mb-6 md:mb-12">
+            <div className="inline-block border-4 border-black bg-white p-4 md:p-6 mb-4 md:mb-6">
+              <h2 className="font-serif text-2xl sm:text-3xl md:text-5xl font-bold">MEMBERSHIP PLANS</h2>
+              <p className="font-serif text-xs md:text-sm mt-1 md:mt-2 tracking-widest">INVEST IN YOUR FUTURE</p>
             </div>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-6 max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-4 md:gap-6 max-w-7xl mx-auto">
             {mockData.pricingPlans.map((plan, index) => (
               <Card key={index} className={`border-4 border-black ${plan.featured ? 'bg-black text-white' : 'bg-white'} hover:scale-105 transition-transform`}>
-                <CardHeader className={`border-b-2 ${plan.featured ? 'border-white' : 'border-black'} text-center pb-6`}>
+                <CardHeader className={`border-b-2 ${plan.featured ? 'border-white' : 'border-black'} text-center pb-4 md:pb-6`}>
                   {plan.featured && (
                     <Badge className="bg-white text-black font-serif mb-2">RECOMMENDED</Badge>
                   )}
