@@ -77,17 +77,17 @@ const Home = () => {
 
       {/* Hero Section - Newspaper Front Page Style */}
       <section id="hero" className="bg-amber-50 border-b-4 border-black">
-        <div className="container mx-auto px-4 py-16">
-          <div className="grid md:grid-cols-2 gap-8 items-start">
-            <div className="border-r-2 border-black pr-8">
-              <div className="mb-4">
-                <Badge className="bg-black text-white font-serif px-3 py-1">BREAKING NEWS</Badge>
+        <div className="container mx-auto px-4 py-8 md:py-16">
+          <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-start">
+            <div className="md:border-r-2 border-black md:pr-8">
+              <div className="mb-3 md:mb-4">
+                <Badge className="bg-black text-white font-serif px-2 md:px-3 py-1 text-xs">BREAKING NEWS</Badge>
               </div>
-              <h2 className="font-serif text-4xl md:text-6xl font-bold mb-6 leading-tight">
+              <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight">
                 A Sanctuary for Serious Scholars
               </h2>
-              <div className="border-l-4 border-black pl-4 mb-6">
-                <p className="font-serif text-lg leading-relaxed text-gray-800">
+              <div className="border-l-4 border-black pl-3 md:pl-4 mb-4 md:mb-6">
+                <p className="font-serif text-sm sm:text-base md:text-lg leading-relaxed text-gray-800">
                   Located at URR14, Uppalam Road (two buildings after BSNL Bhavan), Guruthwa Study Café stands as a beacon of academic excellence. 
                   A place where silence speaks volumes, where focus finds its home, and where the brightest minds 
                   have carved their path to success.
