@@ -42,31 +42,33 @@ const Home = () => {
       <header className="border-b-4 border-black bg-white sticky top-0 z-50">
         <div className="border-b border-black py-1 bg-gray-50">
           <div className="container mx-auto px-4 flex justify-between items-center text-xs">
-            <span className="font-serif">URR14, Uppalam Road, Two Buildings After BSNL Bhavan</span>
-            <span className="font-serif">Excellence in Focus Since Legacy</span>
+            <span className="font-serif hidden sm:block">URR14, Uppalam Road, Two Buildings After BSNL Bhavan</span>
+            <span className="font-serif sm:hidden">URR14, Uppalam Road</span>
+            <span className="font-serif hidden md:block">Excellence in Focus Since Legacy</span>
           </div>
         </div>
-        <div className="container mx-auto px-4 py-6">
-          <div className="text-center border-b-2 border-black pb-4">
-            <h1 className="font-serif text-5xl md:text-7xl font-bold tracking-wider mb-2">
+        <div className="container mx-auto px-4 py-4 md:py-6">
+          <div className="text-center border-b-2 border-black pb-3 md:pb-4">
+            <h1 className="font-serif text-3xl sm:text-5xl md:text-7xl font-bold tracking-wider mb-2">
               GURUTHWA
             </h1>
-            <p className="font-serif text-2xl md:text-3xl tracking-widest border-t border-b border-black py-2 inline-block px-8">
+            <p className="font-serif text-lg sm:text-2xl md:text-3xl tracking-widest border-t border-b border-black py-2 inline-block px-4 sm:px-8">
               STUDY CAFÉ - READING ROOM
             </p>
-            <p className="font-serif text-sm mt-3 tracking-wide">Where Legends Are Made • Est. Legacy Continues</p>
+            <p className="font-serif text-xs sm:text-sm mt-2 md:mt-3 tracking-wide">Where Legends Are Made • Est. Legacy Continues</p>
           </div>
-          <div className="flex justify-between items-center mt-4 text-sm font-serif">
-            <div className="flex gap-6">
+          <div className="flex flex-col sm:flex-row justify-between items-center mt-3 md:mt-4 text-xs sm:text-sm font-serif gap-3">
+            <div className="flex gap-4 sm:gap-6">
               <a href="#features" className="hover:underline transition-all">Facilities</a>
               <a href="#pricing" className="hover:underline transition-all">Membership</a>
-              <a href="#legacy" className="hover:underline transition-all">Our Legacy</a>
+              <a href="#legacy" className="hover:underline transition-all">Legacy</a>
             </div>
             <Button 
               onClick={handleCallNow}
-              className="bg-black text-white hover:bg-gray-800 font-serif tracking-wide transition-all"
+              className="bg-black text-white hover:bg-gray-800 font-serif tracking-wide transition-all text-xs sm:text-sm"
+              size="sm"
             >
-              <Phone className="mr-2 h-4 w-4" />
+              <Phone className="mr-1 sm:mr-2 h-3 w-3 sm:h-4 sm:w-4" />
               Call: 9778467700
             </Button>
           </div>
