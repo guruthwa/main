@@ -93,21 +93,21 @@ const Home = () => {
                   have carved their path to success.
                 </p>
               </div>
-              <div className="grid grid-cols-3 gap-4 mb-6 py-6 border-t border-b border-black">
+              <div className="grid grid-cols-3 gap-2 md:gap-4 mb-4 md:mb-6 py-4 md:py-6 border-t border-b border-black">
                 <div className="text-center">
-                  <Clock className="h-8 w-8 mx-auto mb-2" />
-                  <p className="font-serif text-sm font-bold">7 AM - 12 AM</p>
-                  <p className="text-xs text-gray-600">Flexible Hours</p>
+                  <Clock className="h-6 md:h-8 w-6 md:w-8 mx-auto mb-1 md:mb-2" />
+                  <p className="font-serif text-xs md:text-sm font-bold">7 AM - 12 AM</p>
+                  <p className="text-xs text-gray-600 hidden sm:block">Flexible Hours</p>
                 </div>
                 <div className="text-center border-l border-r border-black">
-                  <Shield className="h-8 w-8 mx-auto mb-2" />
-                  <p className="font-serif text-sm font-bold">24/7 Security</p>
-                  <p className="text-xs text-gray-600">CCTV & Biometric</p>
+                  <Shield className="h-6 md:h-8 w-6 md:w-8 mx-auto mb-1 md:mb-2" />
+                  <p className="font-serif text-xs md:text-sm font-bold">24/7 Security</p>
+                  <p className="text-xs text-gray-600 hidden sm:block">CCTV & Biometric</p>
                 </div>
                 <div className="text-center">
-                  <Coffee className="h-8 w-8 mx-auto mb-2" />
-                  <p className="font-serif text-sm font-bold">Beverages</p>
-                  <p className="text-xs text-gray-600">Tea & Coffee</p>
+                  <Coffee className="h-6 md:h-8 w-6 md:w-8 mx-auto mb-1 md:mb-2" />
+                  <p className="font-serif text-xs md:text-sm font-bold">Beverages</p>
+                  <p className="text-xs text-gray-600 hidden sm:block">Tea & Coffee</p>
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
