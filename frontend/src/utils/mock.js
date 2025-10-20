@@ -115,7 +115,7 @@ export const mockData = {
     {
       name: "Uttam (उत्तम)",
       subtitle: "The Excellence",
-      price: "2,199",
+      price: "2,099",
       description: "24×7 access with premium amenities",
       featured: false,
       features: [
