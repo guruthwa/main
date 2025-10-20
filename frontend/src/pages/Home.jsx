@@ -201,19 +201,19 @@ const Home = () => {
               <Card key={index} className={`border-4 border-black ${plan.featured ? 'bg-black text-white' : 'bg-white'} hover:scale-105 transition-transform`}>
                 <CardHeader className={`border-b-2 ${plan.featured ? 'border-white' : 'border-black'} text-center pb-4 md:pb-6`}>
                   {plan.featured && (
-                    <Badge className="bg-white text-black font-serif mb-2">RECOMMENDED</Badge>
+                    <Badge className="bg-white text-black font-serif mb-2 text-xs">RECOMMENDED</Badge>
                   )}
-                  <CardTitle className="font-serif text-3xl mb-1">{plan.name}</CardTitle>
+                  <CardTitle className="font-serif text-2xl md:text-3xl mb-1">{plan.name}</CardTitle>
                   {plan.subtitle && (
-                    <p className={`font-serif text-sm italic mb-3 ${plan.featured ? 'text-gray-300' : 'text-gray-600'}`}>
+                    <p className={`font-serif text-xs md:text-sm italic mb-2 md:mb-3 ${plan.featured ? 'text-gray-300' : 'text-gray-600'}`}>
                       {plan.subtitle}
                     </p>
                   )}
-                  <div className="font-serif text-5xl font-bold my-4">
+                  <div className="font-serif text-3xl md:text-5xl font-bold my-3 md:my-4">
                     ₹{plan.price}
-                    <span className="text-lg font-normal">/month</span>
+                    <span className="text-base md:text-lg font-normal">/month</span>
                   </div>
-                  <CardDescription className={plan.featured ? 'text-gray-300' : 'text-gray-600'}>
+                  <CardDescription className={`text-sm ${plan.featured ? 'text-gray-300' : 'text-gray-600'}`}>
                     {plan.description}
                   </CardDescription>
                 </CardHeader>
